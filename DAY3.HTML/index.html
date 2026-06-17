@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+      body{
+        padding: 0 50px;
+      }
+      tr,
+      th,
+      td {
+        border: 1px solid black;
+        /*  align-items: center; */
+        text-align: center;
+      }
+
+      .Project-container {
+        height: 400px;
+        width: 100%;
+        /* background-color: rgb(214, 10, 10);*/
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+      .project-box {
+        height: 200px;
+        width: 25%;
+        border: 1px solid black;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>John Doe</h1>
+
+    <p>Web Developer | Student</p>
+
+    <a href="">About ME</a> | <a href=""> Achievements</a> | <a href="">Education</a> | <a href="">Projects</a> <a href="">Contact</a>
+
+    <hr />
+
+    <h3>About Me</h3>
+
+    <p>Hello! I am John Doe, a web development student. I am learning HTML and building simple web pages.</p>
+
+    <hr />
+    <h3>Achievements</h3>
+    <!--      
+     <ol style="list-style-type: decimal;" >
+        <li>sheela</li>
+        <li>leela</li>
+        <li>mala</li>
+     </ol>
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda reiciendis quo distinctio provident, similique expedita autem nihil impedit hic aliquid at magnam illum adipisci error nostrum ullam cupiditate? Dignissimos, odio.</p>
+     
+       <ol start="E" style="list-style-type: upper-alpha;" >
+        <li>sheela</li>
+        <li>leela</li>
+        <li>mala</li>
+     </ol>
+
+     <hr>
+     <h3>Education</h3> -->
+
+    <ul style="list-style-type: square">
+      <li>Completed HTML fundamentals course.</li>
+      <li>Built multiple small projects using HTML.</li>
+      <li>Consistently learning and improving every day.</li>
+      <li>Practice problem solving and logical thinking.</li>
+    </ul>
+
+    <hr />
+
+    <h3>Education</h3>
+
+    <!-- table tag is used to create a table
+attribute of table tag is border it can only be used in table tag we can not use it in tr tag td tag th tag
+
+cellspacing="100"  will create a space between the cells of the table
+cellpadding="100" will create a space inside the cells of the table 
+it is used only in table tag u cant use it in tr tag td tag th tag
+-->
+
+    <table cellspacing="0" cellpadding="10" style="height: 200px; width: 100%">
+      <!-- tr*3>td*3 -->
+
+      <tr>
+        <th>Qualification</th>
+        <th>Institution</th>
+        <th>Year</th>
+        <th>Location</th>
+      </tr>
+      <tr>
+        <td>High School</td>
+        <td>XYZ High School</td>
+        <td>2018 -2020</td>
+        <td>kotagudem</td>
+      </tr>
+      <tr>
+        <td>Bachelor of Computer Science</td>
+        <td>abdul kalam college</td>
+        <td>2022-2026</td>
+        <td>New York, USA</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <h3>Projects</h3>
+    <div class="Project-container">
+      <div class="project-box">
+        <h6>1. Portfolio Website</h6>
+        <p>A personal portfolio built using HTML to showcase my skills and projects.</p>
+
+        <a href="">View Project</a>
+      </div>
+      <div class="project-box">
+        <h6>2. E-commerce Website</h6>
+        <p>A responsive e-commerce website built using HTML to sell products online.</p>
+        <a href="">View Project</a>
+      </div>
+      <div class="project-box">
+        <h6>3. Blog Website</h6>
+        <p>A blog website built using HTML to share knowledge and insights.</p>
+        <a href="">View Project</a>
+      </div>
+    </div>
+
+    <hr />
+
+    <h3>Contact</h3>
+
+    <p> <i class="fa-solid fa-envelope" style="color: rgb(4, 4, 4);"></i> Email: <a href=""> 2N3E5@example.com</a></p>
+    <p> <i class="fa-brands fa-github fa-sm" style="color: rgb(4, 4, 4);"></i>GitHub: <a href="">github.com/johndoe</a></p>
+    <p><i class="fa-solid fa-passport" style="color: rgb(4, 4, 4);"></i>Website: <a href="">www.johndoe.com</a></p>
+    <p><i class="fa-solid fa-phone" style="color: rgb(4, 4, 4);"></i>Phone: 123-456-7890</p>
+    <p><i class="fa-solid fa-location-dot" style="color: rgb(4, 4, 4);"></i>Location: New York, USA</p>
+
+<hr>
+<h3>Declaration</h3>
+
+<p>I hereby declare that the above information is true and accurate to the best of my knowledge.</p>
+
+<p style="text-align: right">-John Doe</p>
+
+<hr>
+<h5 style="text-align: center">@2024 johndoe All rights reserved</h5>
+  </body>
+</html>
